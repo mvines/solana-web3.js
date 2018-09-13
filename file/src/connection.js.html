@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../">
+  <title data-ice="title">src/connection.js | Solana Javascript API</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<meta name="description" content="Solana Javascript API"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="Solana Javascript API"><meta property="twitter:description" content="Solana Javascript API"></head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+<a style="position:relative; top:3px;" href="https://github.com/solana-labs/solana-web3.js"><img width="20px" src="./image/github.png"></a></header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/account.js~Account.html">Account</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/connection.js~Connection.html">Connection</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-PublicKey">PublicKey</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-TransactionId">TransactionId</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-TransactionSignature">TransactionSignature</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/connection.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">// @flow
+
+import assert from &apos;assert&apos;;
+import fetch from &apos;node-fetch&apos;;
+import jayson from &apos;jayson/lib/client/browser&apos;;
+import nacl from &apos;tweetnacl&apos;;
+import {struct} from &apos;superstruct&apos;;
+import bs58 from &apos;bs58&apos;;
+
+import type {Account, PublicKey} from &apos;./account&apos;;
+
+/**
+ * @typedef {string} TransactionSignature
+ */
+export type TransactionSignature = string;
+
+/**
+ * @typedef {string} TransactionId
+ */
+export type TransactionId = string;
+
+type RpcRequest = (methodName: string, args: Array&lt;any&gt;) =&gt; any;
+
+function createRpcRequest(url): RpcRequest {
+  const server = jayson(
+    async (request, callback) =&gt; {
+      const options = {
+        method: &apos;POST&apos;,
+        body: request,
+        headers: {
+          &apos;Content-Type&apos;: &apos;application/json&apos;,
+        }
+      };
+
+      try {
+        const res = await fetch(url, options);
+        const text = await res.text();
+        callback(null, text);
+      } catch (err) {
+        callback(err);
+      }
+    }
+  );
+
+  return (method, args) =&gt; {
+    return new Promise((resolve, reject) =&gt; {
+      server.request(method, args, (err, response) =&gt; {
+        if (err) {
+          reject(err);
+          return;
+        }
+        resolve(response);
+      });
+    });
+  };
+}
+
+
+/**
+ * Expected JSON RPC response for the &quot;getBalance&quot; message
+ */
+const GetBalanceRpcResult = struct({
+  jsonrpc: struct.literal(&apos;2.0&apos;),
+  id: &apos;string&apos;,
+  error: &apos;any?&apos;,
+  result: &apos;number?&apos;,
+});
+
+/**
+ * Expected JSON RPC response for the &quot;confirmTransaction&quot; message
+ */
+const ConfirmTransactionRpcResult = struct({
+  jsonrpc: struct.literal(&apos;2.0&apos;),
+  id: &apos;string&apos;,
+  error: &apos;any?&apos;,
+  result: &apos;boolean?&apos;,
+});
+
+/**
+ * Expected JSON RPC response for the &quot;getTransactionCount&quot; message
+ */
+const GetTransactionCountRpcResult = struct({
+  jsonrpc: struct.literal(&apos;2.0&apos;),
+  id: &apos;string&apos;,
+  error: &apos;any?&apos;,
+  result: &apos;number?&apos;,
+});
+
+/**
+ * Expected JSON RPC response for the &quot;getLastId&quot; message
+ */
+const GetLastId = struct({
+  jsonrpc: struct.literal(&apos;2.0&apos;),
+  id: &apos;string&apos;,
+  error: &apos;any?&apos;,
+  result: &apos;string?&apos;,
+});
+
+/**
+ * Expected JSON RPC response for the &quot;getFinality&quot; message
+ */
+const GetFinalityRpcResult = struct({
+  jsonrpc: struct.literal(&apos;2.0&apos;),
+  id: &apos;string&apos;,
+  error: &apos;any?&apos;,
+  result: &apos;number?&apos;,
+});
+
+/**
+ * Expected JSON RPC response for the &quot;requestAirdrop&quot; message
+ */
+const RequestAirdropRpcResult = struct({
+  jsonrpc: struct.literal(&apos;2.0&apos;),
+  id: &apos;string&apos;,
+  error: &apos;any?&apos;,
+  result: &apos;boolean?&apos;,
+});
+
+/**
+ * Expected JSON RPC response for the &quot;sendTransaction&quot; message
+ */
+const SendTokensRpcResult = struct({
+  jsonrpc: struct.literal(&apos;2.0&apos;),
+  id: &apos;string&apos;,
+  error: &apos;any?&apos;,
+  result: &apos;string?&apos;,
+});
+
+/**
+ * A connection to a fullnode JSON RPC endpoint
+ */
+export class Connection {
+  _rpcRequest: RpcRequest;
+
+  /**
+   * Establish a JSON RPC connection
+   *
+   * @param endpoint URL to the fullnode JSON RPC endpoint
+   */
+  constructor(endpoint: string) {
+    if (typeof endpoint !== &apos;string&apos;) {
+      throw new Error(&apos;Connection endpoint not specified&apos;);
+    }
+    this._rpcRequest = createRpcRequest(endpoint);
+  }
+
+  /**
+   * Fetch the balance for the specified public key
+   */
+  async getBalance(publicKey: PublicKey): Promise&lt;number&gt; {
+    const unsafeRes = await this._rpcRequest(
+      &apos;getBalance&apos;,
+      [publicKey]
+    );
+    const res = GetBalanceRpcResult(unsafeRes);
+    if (res.error) {
+      throw new Error(res.error.message);
+    }
+    assert(typeof res.result !== &apos;undefined&apos;);
+    return res.result;
+  }
+
+  /**
+   * Confirm the transaction identified by the specified signature
+   */
+  async confirmTransaction(signature: TransactionSignature): Promise&lt;boolean&gt; {
+    const unsafeRes = await this._rpcRequest(
+      &apos;confirmTransaction&apos;,
+      [signature]
+    );
+    const res = ConfirmTransactionRpcResult(unsafeRes);
+    if (res.error) {
+      throw new Error(res.error.message);
+    }
+    assert(typeof res.result !== &apos;undefined&apos;);
+    return res.result;
+  }
+
+  /**
+   * Fetch the current transaction count of the network
+   */
+  async getTransactionCount(): Promise&lt;number&gt; {
+    const unsafeRes = await this._rpcRequest(&apos;getTransactionCount&apos;, []);
+    const res = GetTransactionCountRpcResult(unsafeRes);
+    if (res.error) {
+      throw new Error(res.error.message);
+    }
+    assert(typeof res.result !== &apos;undefined&apos;);
+    return Number(res.result);
+  }
+
+  /**
+   * Fetch the identifier to the latest transaction on the network
+   */
+  async getLastId(): Promise&lt;TransactionId&gt; {
+    const unsafeRes = await this._rpcRequest(&apos;getLastId&apos;, []);
+    const res = GetLastId(unsafeRes);
+    if (res.error) {
+      throw new Error(res.error.message);
+    }
+    assert(typeof res.result !== &apos;undefined&apos;);
+    return res.result;
+  }
+
+  /**
+   * Return the current network finality time in millliseconds
+   */
+  async getFinality(): Promise&lt;number&gt; {
+    const unsafeRes = await this._rpcRequest(&apos;getFinality&apos;, []);
+    const res = GetFinalityRpcResult(unsafeRes);
+    if (res.error) {
+      throw new Error(res.error.message);
+    }
+    assert(typeof res.result !== &apos;undefined&apos;);
+    return Number(res.result);
+  }
+
+  /**
+   * Request an allocation of tokens to the specified account
+   */
+  async requestAirdrop(to: PublicKey, amount: number): Promise&lt;void&gt; {
+    const unsafeRes = await this._rpcRequest(&apos;requestAirdrop&apos;, [to, amount]);
+    const res = RequestAirdropRpcResult(unsafeRes);
+    if (res.error) {
+      throw new Error(res.error.message);
+    }
+    assert(typeof res.result !== &apos;undefined&apos;);
+    assert(res.result);
+  }
+
+  /**
+   * Send tokens to another account
+   */
+  async sendTokens(from: Account, to: PublicKey, amount: number): Promise&lt;TransactionSignature&gt; {
+    const lastId = await this.getLastId();
+    const fee = 0;
+
+    //
+    // TODO: Redo this...
+    //
+
+    // Build the transaction data to be signed.
+    const transactionData = Buffer.alloc(124);
+    transactionData.writeUInt32LE(amount, 4);        // u64
+    transactionData.writeUInt32LE(amount - fee, 20); // u64
+    transactionData.writeUInt32LE(32, 28);           // length of public key (u64)
+    {
+      const toBytes = Buffer.from(bs58.decode(to));
+      assert(toBytes.length === 32);
+      toBytes.copy(transactionData, 36);
+    }
+
+    transactionData.writeUInt32LE(32, 68);          // length of last id (u64)
+    {
+      const lastIdBytes = Buffer.from(bs58.decode(lastId));
+      assert(lastIdBytes.length === 32);
+      lastIdBytes.copy(transactionData, 76);
+    }
+
+    // Sign it
+    const signature = nacl.sign.detached(transactionData, from.secretKey);
+    assert(signature.length === 64);
+
+    // Build the over-the-wire transaction buffer
+    const wireTransaction = Buffer.alloc(236);
+    wireTransaction.writeUInt32LE(64, 0);  // signature length (u64)
+    Buffer.from(signature).copy(wireTransaction, 8);
+
+
+    wireTransaction.writeUInt32LE(32, 72);  // public key length (u64)
+    {
+      const fromBytes = Buffer.from(bs58.decode(from.publicKey));
+      assert(fromBytes.length === 32);
+      fromBytes.copy(wireTransaction, 80);
+    }
+    transactionData.copy(wireTransaction, 112);
+
+    // Send it
+    const unsafeRes = await this._rpcRequest(&apos;sendTransaction&apos;, [[...wireTransaction]]);
+    const res = SendTokensRpcResult(unsafeRes);
+    if (res.error) {
+      throw new Error(res.error.message);
+    }
+    assert(typeof res.result !== &apos;undefined&apos;);
+    assert(res.result);
+    return res.result;
+  }
+}
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

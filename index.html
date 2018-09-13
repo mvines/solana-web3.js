@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl">
+  <title data-ice="title">Home | Solana Javascript API</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<meta name="description" content="Solana Javascript API"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="Solana Javascript API"><meta property="twitter:description" content="Solana Javascript API"></head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+<a style="position:relative; top:3px;" href="https://github.com/solana-labs/solana-web3.js"><img width="20px" src="./image/github.png"></a></header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/account.js~Account.html">Account</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/connection.js~Connection.html">Connection</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-PublicKey">PublicKey</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-TransactionId">TransactionId</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-TransactionSignature">TransactionSignature</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><div data-ice="index" class="github-markdown"><p><a href="https://travis-ci.org/solana-labs/solana-web3.js"><img src="https://api.travis-ci.org/solana-labs/solana-web3.js.svg?branch=master" alt="Build status"></a>
+<a href="https://codecov.io/gh/solana-labs/solana-web3.js"><img src="https://codecov.io/gh/solana-labs/solana-web3.js/branch/master/graph/badge.svg" alt="codecov"></a>
+<a href="https://solana-labs.github.io/solana-web3.js/"><img src="https://solana-labs.github.io/solana-web3.js/badge.svg" alt="esdoc"></a>
+<a href="https://www.npmjs.com/package/@solana/web3.js"><img src="https://img.shields.io/npm/v/@solana/web3.js.svg?style=flat" alt="npm"></a></p>
+<h1 id="solana-javascript-api">Solana JavaScript API</h1><p>This is the Solana Javascript API built on the Solana <a href="https://github.com/solana-labs/solana/blob/master/doc/json-rpc.md">JSON RPC API</a></p>
+<p><a href="https://solana-labs.github.io/solana-web3.js/">Latest API Documentation</a></p>
+<h2 id="installation">Installation</h2><h3 id="yarn">Yarn</h3><pre><code><code class="source-code prettyprint">$ yarn add @solana/web3.js</code>
+</code></pre><h3 id="npm">npm</h3><pre><code><code class="source-code prettyprint">$ npm install --save @solana/web3.js</code>
+</code></pre><h3 id="browser-bundle">Browser bundle</h3><pre><code class="lang-html"><code class="source-code prettyprint">&lt;script src=&quot;https://github.com/solana-labs/solana-web3.js/releases/download/v0.0.4/solanaWeb3.min.js&quot;&gt;&lt;/script&gt;</code>
+</code></pre>
+<h2 id="usage">Usage</h2><h3 id="javascript">Javascript</h3><pre><code class="lang-js"><code class="source-code prettyprint">const solanaWeb3 = require(&apos;@solana/web3.js&apos;);
+console.log(solanaWeb3);</code>
+</code></pre>
+<h3 id="es6">ES6</h3><pre><code class="lang-js"><code class="source-code prettyprint">import solanaWeb3 from &apos;@solana/web3.js&apos;;
+console.log(solanaWeb3);</code>
+</code></pre>
+<h3 id="browser-bundle">Browser bundle</h3><pre><code class="lang-js"><code class="source-code prettyprint">// `solanaWeb3` is provided in the global namespace by the `solanaWeb3.min.js` script bundle.
+console.log(solanaWeb3);</code>
+</code></pre>
+<h2 id="examples">Examples</h2><p>See the <a href="https://github.com/solana-labs/solana-web3.js/tree/master/examples">examples/</a> directory for small snippets</p>
+<p>A more complete web-based wallet example can be found at <a href="https://github.com/solana-labs/example-webwallet">https://github.com/solana-labs/example-webwallet</a></p>
+<h2 id="releases">Releases</h2><p>Releases are available on <a href="https://github.com/solana-labs/solana-web3.js/releases">Github</a>
+and <a href="https://www.npmjs.com/package/@solana/web3.js">npmjs.com</a></p>
+<p>Each Github release features a tarball containing API documentation and a
+minified version of the module suitable for direct use in a browser environment
+(&lt;script&gt; tag)</p>
+</div>
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

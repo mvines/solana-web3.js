@@ -1,0 +1,1238 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "src/account.js",
+    "content": "// @flow\nimport nacl from 'tweetnacl';\nimport bs58 from 'bs58';\nimport type {KeyPair} from 'tweetnacl';\n\n/**\n * Base 58 encoded public key\n *\n * @typedef {string} PublicKey\n */\nexport type PublicKey = string;\n\n/**\n * An account key pair (public and secret keys).\n */\nexport class Account {\n  _keypair: KeyPair;\n\n  /**\n   * Create a new Account object\n   *\n   * If the secretKey parameter is not provided a new key pair is randomly\n   * created for the account\n   *\n   * @param secretKey Secret key for the account\n   */\n  constructor(secretKey: ?Buffer = null) {\n    if (secretKey) {\n      this._keypair = nacl.sign.keyPair.fromSecretKey(secretKey);\n    } else {\n      this._keypair = nacl.sign.keyPair();\n    }\n  }\n\n  /**\n   * The public key for this account\n   */\n  get publicKey(): PublicKey {\n    return bs58.encode(this._keypair.publicKey);\n  }\n\n  /**\n   * The **unencrypted** secret key for this account\n   */\n  get secretKey(): Buffer {\n    return this._keypair.secretKey;\n  }\n}\n\n",
+    "static": true,
+    "longname": "/home/travis/build/solana-labs/solana-web3.js/src/account.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "typedef",
+    "name": "PublicKey",
+    "memberof": "src/account.js",
+    "static": true,
+    "longname": "src/account.js~PublicKey",
+    "access": "public",
+    "description": "Base 58 encoded public key",
+    "lineNumber": 11,
+    "type": {
+      "types": [
+        "string"
+      ],
+      "optional": false,
+      "name": "PublicKey"
+    }
+  },
+  {
+    "__docId__": 50,
+    "kind": "class",
+    "name": "Account",
+    "memberof": "src/account.js",
+    "static": true,
+    "longname": "src/account.js~Account",
+    "access": "public",
+    "export": true,
+    "importPath": "@solana/web3",
+    "importStyle": "{Account}",
+    "description": "An account key pair (public and secret keys).",
+    "lineNumber": 16,
+    "interface": false
+  },
+  {
+    "__docId__": 51,
+    "kind": "member",
+    "name": "_keypair",
+    "memberof": "src/account.js~Account",
+    "static": false,
+    "longname": "src/account.js~Account#_keypair",
+    "access": "private",
+    "description": "",
+    "lineNumber": 17,
+    "type": {
+      "nullable": null,
+      "types": [
+        "KeyPair"
+      ],
+      "spread": false,
+      "description": null
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 52,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/account.js~Account",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/account.js~Account#constructor",
+    "access": "public",
+    "description": "Create a new Account object\n\nIf the secretKey parameter is not provided a new key pair is randomly\ncreated for the account ",
+    "lineNumber": 27,
+    "params": [
+      {
+        "nullable": true,
+        "types": [
+          "Buffer"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "undefined",
+        "defaultRaw": "undefined",
+        "name": "secretKey",
+        "description": "Secret key for the account"
+      }
+    ]
+  },
+  {
+    "__docId__": 55,
+    "kind": "get",
+    "name": "publicKey",
+    "memberof": "src/account.js~Account",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/account.js~Account#publicKey",
+    "access": "public",
+    "description": "The public key for this account ",
+    "lineNumber": 38,
+    "type": {
+      "nullable": null,
+      "types": [
+        "PublicKey"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 56,
+    "kind": "get",
+    "name": "secretKey",
+    "memberof": "src/account.js~Account",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/account.js~Account#secretKey",
+    "access": "public",
+    "description": "The **unencrypted** secret key for this account ",
+    "lineNumber": 45,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Buffer"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 57,
+    "kind": "file",
+    "name": "src/connection.js",
+    "content": "// @flow\n\nimport assert from 'assert';\nimport fetch from 'node-fetch';\nimport jayson from 'jayson/lib/client/browser';\nimport nacl from 'tweetnacl';\nimport {struct} from 'superstruct';\nimport bs58 from 'bs58';\n\nimport type {Account, PublicKey} from './account';\n\n/**\n * @typedef {string} TransactionSignature\n */\nexport type TransactionSignature = string;\n\n/**\n * @typedef {string} TransactionId\n */\nexport type TransactionId = string;\n\ntype RpcRequest = (methodName: string, args: Array<any>) => any;\n\nfunction createRpcRequest(url): RpcRequest {\n  const server = jayson(\n    async (request, callback) => {\n      const options = {\n        method: 'POST',\n        body: request,\n        headers: {\n          'Content-Type': 'application/json',\n        }\n      };\n\n      try {\n        const res = await fetch(url, options);\n        const text = await res.text();\n        callback(null, text);\n      } catch (err) {\n        callback(err);\n      }\n    }\n  );\n\n  return (method, args) => {\n    return new Promise((resolve, reject) => {\n      server.request(method, args, (err, response) => {\n        if (err) {\n          reject(err);\n          return;\n        }\n        resolve(response);\n      });\n    });\n  };\n}\n\n\n/**\n * Expected JSON RPC response for the \"getBalance\" message\n */\nconst GetBalanceRpcResult = struct({\n  jsonrpc: struct.literal('2.0'),\n  id: 'string',\n  error: 'any?',\n  result: 'number?',\n});\n\n/**\n * Expected JSON RPC response for the \"confirmTransaction\" message\n */\nconst ConfirmTransactionRpcResult = struct({\n  jsonrpc: struct.literal('2.0'),\n  id: 'string',\n  error: 'any?',\n  result: 'boolean?',\n});\n\n/**\n * Expected JSON RPC response for the \"getTransactionCount\" message\n */\nconst GetTransactionCountRpcResult = struct({\n  jsonrpc: struct.literal('2.0'),\n  id: 'string',\n  error: 'any?',\n  result: 'number?',\n});\n\n/**\n * Expected JSON RPC response for the \"getLastId\" message\n */\nconst GetLastId = struct({\n  jsonrpc: struct.literal('2.0'),\n  id: 'string',\n  error: 'any?',\n  result: 'string?',\n});\n\n/**\n * Expected JSON RPC response for the \"getFinality\" message\n */\nconst GetFinalityRpcResult = struct({\n  jsonrpc: struct.literal('2.0'),\n  id: 'string',\n  error: 'any?',\n  result: 'number?',\n});\n\n/**\n * Expected JSON RPC response for the \"requestAirdrop\" message\n */\nconst RequestAirdropRpcResult = struct({\n  jsonrpc: struct.literal('2.0'),\n  id: 'string',\n  error: 'any?',\n  result: 'boolean?',\n});\n\n/**\n * Expected JSON RPC response for the \"sendTransaction\" message\n */\nconst SendTokensRpcResult = struct({\n  jsonrpc: struct.literal('2.0'),\n  id: 'string',\n  error: 'any?',\n  result: 'string?',\n});\n\n/**\n * A connection to a fullnode JSON RPC endpoint\n */\nexport class Connection {\n  _rpcRequest: RpcRequest;\n\n  /**\n   * Establish a JSON RPC connection\n   *\n   * @param endpoint URL to the fullnode JSON RPC endpoint\n   */\n  constructor(endpoint: string) {\n    if (typeof endpoint !== 'string') {\n      throw new Error('Connection endpoint not specified');\n    }\n    this._rpcRequest = createRpcRequest(endpoint);\n  }\n\n  /**\n   * Fetch the balance for the specified public key\n   */\n  async getBalance(publicKey: PublicKey): Promise<number> {\n    const unsafeRes = await this._rpcRequest(\n      'getBalance',\n      [publicKey]\n    );\n    const res = GetBalanceRpcResult(unsafeRes);\n    if (res.error) {\n      throw new Error(res.error.message);\n    }\n    assert(typeof res.result !== 'undefined');\n    return res.result;\n  }\n\n  /**\n   * Confirm the transaction identified by the specified signature\n   */\n  async confirmTransaction(signature: TransactionSignature): Promise<boolean> {\n    const unsafeRes = await this._rpcRequest(\n      'confirmTransaction',\n      [signature]\n    );\n    const res = ConfirmTransactionRpcResult(unsafeRes);\n    if (res.error) {\n      throw new Error(res.error.message);\n    }\n    assert(typeof res.result !== 'undefined');\n    return res.result;\n  }\n\n  /**\n   * Fetch the current transaction count of the network\n   */\n  async getTransactionCount(): Promise<number> {\n    const unsafeRes = await this._rpcRequest('getTransactionCount', []);\n    const res = GetTransactionCountRpcResult(unsafeRes);\n    if (res.error) {\n      throw new Error(res.error.message);\n    }\n    assert(typeof res.result !== 'undefined');\n    return Number(res.result);\n  }\n\n  /**\n   * Fetch the identifier to the latest transaction on the network\n   */\n  async getLastId(): Promise<TransactionId> {\n    const unsafeRes = await this._rpcRequest('getLastId', []);\n    const res = GetLastId(unsafeRes);\n    if (res.error) {\n      throw new Error(res.error.message);\n    }\n    assert(typeof res.result !== 'undefined');\n    return res.result;\n  }\n\n  /**\n   * Return the current network finality time in millliseconds\n   */\n  async getFinality(): Promise<number> {\n    const unsafeRes = await this._rpcRequest('getFinality', []);\n    const res = GetFinalityRpcResult(unsafeRes);\n    if (res.error) {\n      throw new Error(res.error.message);\n    }\n    assert(typeof res.result !== 'undefined');\n    return Number(res.result);\n  }\n\n  /**\n   * Request an allocation of tokens to the specified account\n   */\n  async requestAirdrop(to: PublicKey, amount: number): Promise<void> {\n    const unsafeRes = await this._rpcRequest('requestAirdrop', [to, amount]);\n    const res = RequestAirdropRpcResult(unsafeRes);\n    if (res.error) {\n      throw new Error(res.error.message);\n    }\n    assert(typeof res.result !== 'undefined');\n    assert(res.result);\n  }\n\n  /**\n   * Send tokens to another account\n   */\n  async sendTokens(from: Account, to: PublicKey, amount: number): Promise<TransactionSignature> {\n    const lastId = await this.getLastId();\n    const fee = 0;\n\n    //\n    // TODO: Redo this...\n    //\n\n    // Build the transaction data to be signed.\n    const transactionData = Buffer.alloc(124);\n    transactionData.writeUInt32LE(amount, 4);        // u64\n    transactionData.writeUInt32LE(amount - fee, 20); // u64\n    transactionData.writeUInt32LE(32, 28);           // length of public key (u64)\n    {\n      const toBytes = Buffer.from(bs58.decode(to));\n      assert(toBytes.length === 32);\n      toBytes.copy(transactionData, 36);\n    }\n\n    transactionData.writeUInt32LE(32, 68);          // length of last id (u64)\n    {\n      const lastIdBytes = Buffer.from(bs58.decode(lastId));\n      assert(lastIdBytes.length === 32);\n      lastIdBytes.copy(transactionData, 76);\n    }\n\n    // Sign it\n    const signature = nacl.sign.detached(transactionData, from.secretKey);\n    assert(signature.length === 64);\n\n    // Build the over-the-wire transaction buffer\n    const wireTransaction = Buffer.alloc(236);\n    wireTransaction.writeUInt32LE(64, 0);  // signature length (u64)\n    Buffer.from(signature).copy(wireTransaction, 8);\n\n\n    wireTransaction.writeUInt32LE(32, 72);  // public key length (u64)\n    {\n      const fromBytes = Buffer.from(bs58.decode(from.publicKey));\n      assert(fromBytes.length === 32);\n      fromBytes.copy(wireTransaction, 80);\n    }\n    transactionData.copy(wireTransaction, 112);\n\n    // Send it\n    const unsafeRes = await this._rpcRequest('sendTransaction', [[...wireTransaction]]);\n    const res = SendTokensRpcResult(unsafeRes);\n    if (res.error) {\n      throw new Error(res.error.message);\n    }\n    assert(typeof res.result !== 'undefined');\n    assert(res.result);\n    return res.result;\n  }\n}\n",
+    "static": true,
+    "longname": "/home/travis/build/solana-labs/solana-web3.js/src/connection.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 58,
+    "kind": "typedef",
+    "name": "TransactionSignature",
+    "memberof": "src/connection.js",
+    "static": true,
+    "longname": "src/connection.js~TransactionSignature",
+    "access": "public",
+    "description": "",
+    "lineNumber": 15,
+    "type": {
+      "types": [
+        "string"
+      ],
+      "optional": false,
+      "name": "TransactionSignature"
+    }
+  },
+  {
+    "__docId__": 59,
+    "kind": "typedef",
+    "name": "TransactionId",
+    "memberof": "src/connection.js",
+    "static": true,
+    "longname": "src/connection.js~TransactionId",
+    "access": "public",
+    "description": "",
+    "lineNumber": 20,
+    "type": {
+      "types": [
+        "string"
+      ],
+      "optional": false,
+      "name": "TransactionId"
+    }
+  },
+  {
+    "__docId__": 60,
+    "kind": "function",
+    "name": "createRpcRequest",
+    "memberof": "src/connection.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/connection.js~createRpcRequest",
+    "access": "public",
+    "export": false,
+    "importPath": "@solana/web3",
+    "importStyle": null,
+    "description": " ",
+    "lineNumber": 24,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "url",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "RpcRequest"
+      ],
+      "spread": false,
+      "description": ""
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 61,
+    "kind": "variable",
+    "name": "GetBalanceRpcResult",
+    "memberof": "src/connection.js",
+    "static": true,
+    "longname": "src/connection.js~GetBalanceRpcResult",
+    "access": "public",
+    "export": false,
+    "importPath": "@solana/web3",
+    "importStyle": null,
+    "description": "Expected JSON RPC response for the \"getBalance\" message",
+    "lineNumber": 62,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 62,
+    "kind": "variable",
+    "name": "ConfirmTransactionRpcResult",
+    "memberof": "src/connection.js",
+    "static": true,
+    "longname": "src/connection.js~ConfirmTransactionRpcResult",
+    "access": "public",
+    "export": false,
+    "importPath": "@solana/web3",
+    "importStyle": null,
+    "description": "Expected JSON RPC response for the \"confirmTransaction\" message",
+    "lineNumber": 72,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 63,
+    "kind": "variable",
+    "name": "GetTransactionCountRpcResult",
+    "memberof": "src/connection.js",
+    "static": true,
+    "longname": "src/connection.js~GetTransactionCountRpcResult",
+    "access": "public",
+    "export": false,
+    "importPath": "@solana/web3",
+    "importStyle": null,
+    "description": "Expected JSON RPC response for the \"getTransactionCount\" message",
+    "lineNumber": 82,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 64,
+    "kind": "variable",
+    "name": "GetLastId",
+    "memberof": "src/connection.js",
+    "static": true,
+    "longname": "src/connection.js~GetLastId",
+    "access": "public",
+    "export": false,
+    "importPath": "@solana/web3",
+    "importStyle": null,
+    "description": "Expected JSON RPC response for the \"getLastId\" message",
+    "lineNumber": 92,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 65,
+    "kind": "variable",
+    "name": "GetFinalityRpcResult",
+    "memberof": "src/connection.js",
+    "static": true,
+    "longname": "src/connection.js~GetFinalityRpcResult",
+    "access": "public",
+    "export": false,
+    "importPath": "@solana/web3",
+    "importStyle": null,
+    "description": "Expected JSON RPC response for the \"getFinality\" message",
+    "lineNumber": 102,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 66,
+    "kind": "variable",
+    "name": "RequestAirdropRpcResult",
+    "memberof": "src/connection.js",
+    "static": true,
+    "longname": "src/connection.js~RequestAirdropRpcResult",
+    "access": "public",
+    "export": false,
+    "importPath": "@solana/web3",
+    "importStyle": null,
+    "description": "Expected JSON RPC response for the \"requestAirdrop\" message",
+    "lineNumber": 112,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 67,
+    "kind": "variable",
+    "name": "SendTokensRpcResult",
+    "memberof": "src/connection.js",
+    "static": true,
+    "longname": "src/connection.js~SendTokensRpcResult",
+    "access": "public",
+    "export": false,
+    "importPath": "@solana/web3",
+    "importStyle": null,
+    "description": "Expected JSON RPC response for the \"sendTransaction\" message",
+    "lineNumber": 122,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 68,
+    "kind": "class",
+    "name": "Connection",
+    "memberof": "src/connection.js",
+    "static": true,
+    "longname": "src/connection.js~Connection",
+    "access": "public",
+    "export": true,
+    "importPath": "@solana/web3",
+    "importStyle": "{Connection}",
+    "description": "A connection to a fullnode JSON RPC endpoint",
+    "lineNumber": 132,
+    "interface": false
+  },
+  {
+    "__docId__": 69,
+    "kind": "member",
+    "name": "_rpcRequest",
+    "memberof": "src/connection.js~Connection",
+    "static": false,
+    "longname": "src/connection.js~Connection#_rpcRequest",
+    "access": "private",
+    "description": "",
+    "lineNumber": 133,
+    "type": {
+      "nullable": null,
+      "types": [
+        "RpcRequest"
+      ],
+      "spread": false,
+      "description": null
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 70,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/connection.js~Connection",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/connection.js~Connection#constructor",
+    "access": "public",
+    "description": "Establish a JSON RPC connection ",
+    "lineNumber": 140,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "endpoint",
+        "description": "URL to the fullnode JSON RPC endpoint"
+      }
+    ]
+  },
+  {
+    "__docId__": 72,
+    "kind": "method",
+    "name": "getBalance",
+    "memberof": "src/connection.js~Connection",
+    "generator": false,
+    "async": true,
+    "static": false,
+    "longname": "src/connection.js~Connection#getBalance",
+    "access": "public",
+    "description": "Fetch the balance for the specified public key  ",
+    "lineNumber": 150,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "PublicKey"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "publicKey",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<number>"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 73,
+    "kind": "method",
+    "name": "confirmTransaction",
+    "memberof": "src/connection.js~Connection",
+    "generator": false,
+    "async": true,
+    "static": false,
+    "longname": "src/connection.js~Connection#confirmTransaction",
+    "access": "public",
+    "description": "Confirm the transaction identified by the specified signature  ",
+    "lineNumber": 166,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "TransactionSignature"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "signature",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<boolean>"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 74,
+    "kind": "method",
+    "name": "getTransactionCount",
+    "memberof": "src/connection.js~Connection",
+    "generator": false,
+    "async": true,
+    "static": false,
+    "longname": "src/connection.js~Connection#getTransactionCount",
+    "access": "public",
+    "description": "Fetch the current transaction count of the network  ",
+    "lineNumber": 182,
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<number>"
+      ],
+      "spread": false,
+      "description": ""
+    },
+    "params": []
+  },
+  {
+    "__docId__": 75,
+    "kind": "method",
+    "name": "getLastId",
+    "memberof": "src/connection.js~Connection",
+    "generator": false,
+    "async": true,
+    "static": false,
+    "longname": "src/connection.js~Connection#getLastId",
+    "access": "public",
+    "description": "Fetch the identifier to the latest transaction on the network  ",
+    "lineNumber": 195,
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<TransactionId>"
+      ],
+      "spread": false,
+      "description": ""
+    },
+    "params": []
+  },
+  {
+    "__docId__": 76,
+    "kind": "method",
+    "name": "getFinality",
+    "memberof": "src/connection.js~Connection",
+    "generator": false,
+    "async": true,
+    "static": false,
+    "longname": "src/connection.js~Connection#getFinality",
+    "access": "public",
+    "description": "Return the current network finality time in millliseconds  ",
+    "lineNumber": 208,
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<number>"
+      ],
+      "spread": false,
+      "description": ""
+    },
+    "params": []
+  },
+  {
+    "__docId__": 77,
+    "kind": "method",
+    "name": "requestAirdrop",
+    "memberof": "src/connection.js~Connection",
+    "generator": false,
+    "async": true,
+    "static": false,
+    "longname": "src/connection.js~Connection#requestAirdrop",
+    "access": "public",
+    "description": "Request an allocation of tokens to the specified account  ",
+    "lineNumber": 221,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "PublicKey"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "to",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "amount",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<void>"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 78,
+    "kind": "method",
+    "name": "sendTokens",
+    "memberof": "src/connection.js~Connection",
+    "generator": false,
+    "async": true,
+    "static": false,
+    "longname": "src/connection.js~Connection#sendTokens",
+    "access": "public",
+    "description": "Send tokens to another account  ",
+    "lineNumber": 234,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Account"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "from",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "PublicKey"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "to",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "amount",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<TransactionSignature>"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 79,
+    "kind": "file",
+    "name": "src/index.js",
+    "content": "// @flow\nexport {Account} from './account';\nexport {Connection} from './connection';\n",
+    "static": true,
+    "longname": "/home/travis/build/solana-labs/solana-web3.js/src/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "kind": "index",
+    "content": "[![Build status](https://api.travis-ci.org/solana-labs/solana-web3.js.svg?branch=master)](https://travis-ci.org/solana-labs/solana-web3.js)\n[![codecov](https://codecov.io/gh/solana-labs/solana-web3.js/branch/master/graph/badge.svg)](https://codecov.io/gh/solana-labs/solana-web3.js)\n[![esdoc](https://solana-labs.github.io/solana-web3.js/badge.svg)](https://solana-labs.github.io/solana-web3.js/)\n[![npm](https://img.shields.io/npm/v/@solana/web3.js.svg?style=flat)](https://www.npmjs.com/package/@solana/web3.js)\n\n# Solana JavaScript API\n\nThis is the Solana Javascript API built on the Solana [JSON RPC API](https://github.com/solana-labs/solana/blob/master/doc/json-rpc.md)\n\n[Latest API Documentation](https://solana-labs.github.io/solana-web3.js/)\n\n\n## Installation\n\n### Yarn\n```\n$ yarn add @solana/web3.js\n```\n\n### npm\n```\n$ npm install --save @solana/web3.js\n```\n\n### Browser bundle\n```html\n<script src=\"https://github.com/solana-labs/solana-web3.js/releases/download/v0.0.4/solanaWeb3.min.js\"></script>\n```\n\n## Usage\n\n### Javascript\n```js\nconst solanaWeb3 = require('@solana/web3.js');\nconsole.log(solanaWeb3);\n```\n\n### ES6\n```js\nimport solanaWeb3 from '@solana/web3.js';\nconsole.log(solanaWeb3);\n```\n\n### Browser bundle\n```js\n// `solanaWeb3` is provided in the global namespace by the `solanaWeb3.min.js` script bundle.\nconsole.log(solanaWeb3);\n```\n\n## Examples\nSee the [examples/](https://github.com/solana-labs/solana-web3.js/tree/master/examples) directory for small snippets\n\nA more complete web-based wallet example can be found at https://github.com/solana-labs/example-webwallet\n\n## Releases\nReleases are available on [Github](https://github.com/solana-labs/solana-web3.js/releases)\nand [npmjs.com](https://www.npmjs.com/package/@solana/web3.js)\n\nEach Github release features a tarball containing API documentation and a\nminified version of the module suitable for direct use in a browser environment\n(&lt;script&gt; tag)\n",
+    "longname": "/home/travis/build/solana-labs/solana-web3.js/README.md",
+    "name": "./README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\n  \"name\": \"@solana/web3.js\",\n  \"version\": \"0.0.4\",\n  \"description\": \"Solana Javascript API\",\n  \"keywords\": [\n    \"api\",\n    \"blockchain\"\n  ],\n  \"license\": \"MIT\",\n  \"author\": \"Solana Labs, Inc\",\n  \"homepage\": \"https://solana.com/\",\n  \"repository\": {\n    \"type\": \"git\",\n    \"url\": \"http://github.com/solana-labs/solana-web3.js.git\"\n  },\n  \"bugs\": {\n    \"url\": \"http://github.com/solana-labs/solana-web3.js.git/issues\"\n  },\n  \"publishConfig\": {\n    \"access\": \"public\"\n  },\n  \"main\": \"lib/index.cjs.js\",\n  \"module\": \"lib/index.esm.js\",\n  \"scripts\": {\n    \"clean\": \"rimraf ./coverage ./lib\",\n    \"dev\": \"cross-env NODE_ENV=development rollup -c\",\n    \"build\": \"cross-env NODE_ENV=production rollup -c\",\n    \"doc\": \"esdoc; node -p '\\\"\\\\nDocumentation coverage: \\\" + require(\\\"./doc/coverage.json\\\").coverage'\",\n    \"doc:watch\": \"watch 'npm run doc' . --wait=1 --ignoreDirectoryPattern=/doc/\",\n    \"test\": \"cross-env NODE_ENV=test jest\",\n    \"test:live\": \"cross-env NODE_ENV=test DOITLIVE=1 jest\",\n    \"test:watch\": \"cross-env NODE_ENV=test jest --watch\",\n    \"test:cover\": \"cross-env NODE_ENV=test jest --coverage\",\n    \"codecov\": \"npm run test:cover && cat ./coverage/lcov.info | codecov\",\n    \"flow\": \"flow-typed install jest@22 && flow\",\n    \"flow:watch\": \"watch 'flow' . --wait=1 --ignoreDirectoryPattern=/doc/\",\n    \"lint\": \"eslint .\",\n    \"lint:fix\": \"npm run lint --fix\",\n    \"lint:watch\": \"watch 'npm run lint:fix' . --wait=1 --ignoreDirectoryPattern=/doc/\",\n    \"prepublish\": \"npm run clean && npm run test && npm run flow && npm run lint && npm run doc && npm run build\"\n  },\n  \"dependencies\": {\n    \"babel-runtime\": \"^6.26.0\",\n    \"bs58\": \"^4.0.1\",\n    \"jayson\": \"^2.0.6\",\n    \"node-fetch\": \"^2.2.0\",\n    \"superstruct\": \"^0.5.4\",\n    \"tweetnacl\": \"^1.0.0\"\n  },\n  \"devDependencies\": {\n    \"babel-core\": \"6.26.0\",\n    \"babel-eslint\": \"8.2.3\",\n    \"babel-plugin-module-resolver\": \"3.1.1\",\n    \"babel-plugin-transform-runtime\": \"^6.23.0\",\n    \"babel-preset-env\": \"1.6.1\",\n    \"babel-preset-flow\": \"6.23.0\",\n    \"babel-preset-stage-0\": \"6.24.1\",\n    \"codecov\": \"^3.0.4\",\n    \"cross-env\": \"5.1.4\",\n    \"enzyme\": \"3.3.0\",\n    \"esdoc\": \"^1.1.0\",\n    \"esdoc-ecmascript-proposal-plugin\": \"^1.0.0\",\n    \"esdoc-flow-type-plugin\": \"^1.1.0\",\n    \"esdoc-importpath-plugin\": \"^1.0.2\",\n    \"esdoc-standard-plugin\": \"^1.0.0\",\n    \"eslint\": \"4.19.1\",\n    \"eslint-plugin-import\": \"2.11.0\",\n    \"eslint-plugin-jest\": \"^21.21.0\",\n    \"flow-bin\": \"0.70.0\",\n    \"flow-typed\": \"2.4.0\",\n    \"fs-file-tree\": \"1.0.6\",\n    \"jest\": \"22.4.3\",\n    \"rimraf\": \"2.6.2\",\n    \"rollup\": \"0.58.1\",\n    \"rollup-plugin-babel\": \"3.0.3\",\n    \"rollup-plugin-commonjs\": \"9.1.0\",\n    \"rollup-plugin-json\": \"^3.0.0\",\n    \"rollup-plugin-node-builtins\": \"^2.1.2\",\n    \"rollup-plugin-node-globals\": \"^1.2.1\",\n    \"rollup-plugin-node-resolve\": \"3.3.0\",\n    \"rollup-plugin-replace\": \"2.0.0\",\n    \"rollup-plugin-uglify\": \"3.0.0\",\n    \"watch\": \"^1.0.2\"\n  }\n}\n",
+    "longname": "/home/travis/build/solana-labs/solana-web3.js/package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  }
+]
